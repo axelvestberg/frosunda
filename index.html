@@ -9,26 +9,26 @@
 
 <body>
 
-    <h1>Frösunda Parkering</h1>
+    <h1>Frösunda Omsorg Parkering</h1>
     <h2>Parkerat in någon i garaget?</h2>
     <p id="instruktion">Vänligen skriv in ditt namn, telefonnummer och vilken plats du parkerat på. Tack på förhand!</p>
     <p id="instruktion">Vägg</p>
     <div id="container" class="box-text">
         <div id="row-one">
             <div id="one">
-                <p>Parkering #1</p>
+                <p>Inre parkering #1</p>
                 <p id="show-name-1"></p>
                 <p id="show-phone-1"></p>
                 <button id="remove-parking-1" onclick="removeParkingOne()">Ta bort</button>
             </div>
             <div id="two">
-                <p>Parkering #2</p>
+                <p>Inre parkering #2</p>
                 <p id="show-name-2"></p>
                 <p id="show-phone-2"></p>
                 <button id="remove-parking-2" onclick="removeParkingTwo()">Ta bort</button>
             </div>
             <div id="three">
-                <p>Parkering #3</p>
+                <p>Inre parkering #3</p>
                 <p id="show-name-3"></p>
                 <p id="show-phone-3"></p>
                 <button id="remove-parking-3" onclick="removeParkingThree()">Ta bort</button>
@@ -36,19 +36,19 @@
         </div>
         <div id="row-two" class="box-text">
             <div id="four">
-                <p>Parkering #4</p>
+                <p>Yttre parkering #4</p>
                 <p id="show-name-4"></p>
                 <p id="show-phone-4"></p>
                 <button id="remove-parking-4" onclick="removeParkingFour()">Ta bort</button>
             </div>
             <div id="five">
-                <p>Parkering #5</p>
+                <p>Yttre parkering #5</p>
                 <p id="show-name-5"></p>
                 <p id="show-phone-5"></p>
                 <button id="remove-parking-5" onclick="removeParkingFive()">Ta bort</button>
             </div>
             <div id="six">
-                <p>Parkering #6</p>
+                <p>Yttre parkering #6</p>
                 <p id="show-name-6"></p>
                 <p id="show-phone-6"></p>
                 <button id="remove-parking-6" onclick="removeParkingSix()">Ta bort</button>
@@ -77,6 +77,7 @@
             <input type="tel" name="cellphone" id="phone-field"
                 pattern="[0-9]{3} [0-9]{3} [0-9]{2} [0-9]{2}" maxlength="12" required>
         </form>
+        <br>
         <button onClick="regPark()">Registrera</button>
     </div>
 </body>
