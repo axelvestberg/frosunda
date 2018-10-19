@@ -39,23 +39,16 @@ p {
     margin-top: 20px;
 }
 
-#row-one {
+#row-one, #row-two {
     width: 100%;
-    height: 250px;
-    float: top;
-}
-
-#row-two {
-    width: 100%;
-    height: 250px;
-    float: bottom;
+    height: 30vh;
 }
 
 #one, #two, #three, #four, #five, #six {
     box-sizing: border-box;
     border: 2px solid white;
     width: 33.33%;
-    height: 250px;
+    height: 30vh;
     float: left;
 }
 #one, #four {
